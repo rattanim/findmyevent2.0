@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Form from '../../form';
-
+// import Navbar from '../../NavBar';
 // const add = () => (
 // 	<div>
 // 		<h2>Add page</h2>

@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../index.css';
 
 export default class Form extends React.Component {
 	state = {
@@ -34,9 +33,9 @@ export default class Form extends React.Component {
 		};
 
 		return (
-			<form className="form-wrap" style={{ backgroundColor: 'blue' }}>
+			<form className="form-wrap">
 				<input
-					style={inputStyle}
+					className="input-box"
 					name="eventName"
 					placeholder="Event Name"
 					value={this.state.eventName}
@@ -44,7 +43,7 @@ export default class Form extends React.Component {
 				/>
 				<br />
 				<input
-					className="form-input"
+					className="input-box"
 					name="notes"
 					placeholder="Family Friendly?"
 					value={this.state.notes}
@@ -52,6 +51,7 @@ export default class Form extends React.Component {
 				/>
 				<br />
 				<input
+					className="input-box"
 					name="details"
 					placeholder="Where?"
 					value={this.state.details}
@@ -59,6 +59,7 @@ export default class Form extends React.Component {
 				/>
 				<br />
 				<input
+					className="input-box"
 					name="description"
 					placeholder="Location and other details."
 					value={this.state.description}
@@ -66,6 +67,7 @@ export default class Form extends React.Component {
 				/>
 				<br />
 				<input
+					className="input-box"
 					name="contactEmail"
 					placeholder="Contact Email"
 					value={this.state.contactEmail}

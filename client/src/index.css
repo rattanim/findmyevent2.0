@@ -185,9 +185,6 @@ input[type='search'] {
 }
 
 /* Form */
-.form-input {
-	height: 40px;
-}
 .form-wrap {
 	margin: auto;
 	background: var(--bg-color);
@@ -196,16 +193,7 @@ input[type='search'] {
 	margin-top: 3rem;
 	border-bottom: 4px solid var(--primary-color);
 	box-shadow: var(--box-shadow);
-}
-
-.form-wrap.reg-form,
-.form-wrap.login-form {
 	width: 60%;
-}
-
-.form-wrap h1,
-.form-wrap h2,
-.form-wrap p {
 	text-align: center;
 }
 

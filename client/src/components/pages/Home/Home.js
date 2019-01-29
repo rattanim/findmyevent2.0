@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../../images/showcase.jpg';
 
 const Home = () => (
 	<div>
